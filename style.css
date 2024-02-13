@@ -1,0 +1,133 @@
+body
+{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgba(204, 9, 129, 0.5)0%,rgba(132, 160, 6, 0.5)25%,
+     rgba(100,50,12,0.4)50%,rgb(122, 211, 102)),url(fd2.jpg);
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+
+}
+.cont
+{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.cont .pa
+{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    line-height: 30px;
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+.cont h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    text-align: justify;
+    
+}
+.main
+{
+    width: 110%;
+    height: 109vh;
+}
+.menu
+{
+
+    height: 70px;
+    left: 500px;
+}
+ul
+{
+    float: left;
+    width: 1000px;
+    display: flex ;
+    justify-content: center;
+    align-items:center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover
+{
+    color: #ff7200;
+} 
+.cont .cn 
+{
+      width: 160px;
+      height: 40px;
+      background: rgb(252, 3, 148);
+      border: none;
+      margin-bottom: 10px;
+      margin-left: 20px;
+      font-size: 18px;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: .4s ease;
+      
+      
+}
+.cont .cn a 
+{
+    text-decoration: none;
+    color:  #fff;
+    transition: .3s ease;
+}
+.cn:hover
+{
+    background-color: #fff;
+}
+.cont .cnn
+{
+      width: 160px;
+      height: 40px;
+      background: #2c064b;
+      border: none;
+      margin-bottom: 10px;
+      margin-left: 20px;
+      font-size: 18px;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: .4s ease;
+}
+.cont .cnn a 
+{
+    text-decoration: none;
+    color:  #fff;
+    transition: .3s ease;
+}
+.cnn:hover
+{
+    background-color: #fff;
+}
+.imag
+{
+    display: flex;
+    position: relative;
+    float: right;
+    right: 350px;
+}
+
